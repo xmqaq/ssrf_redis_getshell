@@ -1,0 +1,2 @@
+# ssrf_redis_getshell
+通过ssrf漏洞对redis资产进行getshell的常见姿势
